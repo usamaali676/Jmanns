@@ -5534,5 +5534,10 @@ video {
 }
 
 /*-- max-width: 500px--*/
-
+.custom-a{
+    color: white;
+}
+.custom-a:hover{
+    color: #ff3b3e;
+}
 /*# sourceMappingURL=style.css.map */

@@ -8,11 +8,13 @@
                     <div class="row">
                         <div class="col-lg-7">
                             <div class="slide_content">
-                                <h3 class="sub_heading">Urgent Service: <span>+33 123 456 789</span></h3>
-                                <h2 class="heading">Emergency <span>Locksmith</span> service available 24/7</h2>
-                                <p class="desc">We offer comprehensive services to the industrial <br/> residential & automotive sectors. </p>
+                                <h3 class="sub_heading">Call Now: <span><a href="tel:9285811957">+1 (928)
+                                            581-1957</a></span></h3>
+                                <h2 class="heading">Reliable <span>Locksmith</span> Service Available 24/7</h2>
+                                <p class="desc">Serving residential & commercial clients with expert
+                                    lockout, rekeying, and emergency locksmith solutions. </p>
                                 <div class="slider_button">
-                                    <a href="#" class="button alt">Learn More</a>
+                                    <a href="#" class="button alt">About Us</a>
                                 </div>
                             </div>
                         </div>
@@ -27,7 +29,7 @@
             </div>
         </div>
 
-        <div class="item">
+        {{-- <div class="item">
             <div class="slider" style="background-image:url(assets/images/slider/slider_bg1.jpg)">
                 <div class="container">
                     <div class="row">
@@ -35,7 +37,8 @@
                             <div class="slide_content">
                                 <h3 class="sub_heading">Urgent Service: <span>+33 123 456 789</span></h3>
                                 <h2 class="heading">Emergency <span>Locksmith</span> service available 24/7</h2>
-                                <p class="desc">We offer comprehensive services to the industrial <br/> residential & automotive sectors. </p>
+                                <p class="desc">We offer comprehensive services to the industrial <br /> residential &
+                                    automotive sectors. </p>
                                 <div class="slider_button">
                                     <a href="#" class="button alt">Learn More</a>
                                 </div>
@@ -50,7 +53,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </div>
 
@@ -66,8 +69,9 @@
                         </div>
                     </div>
                     <div class="iconbox_content">
-                        <h3><a href="service-details.html">Household Security Device Installation</a></h3>
-                        <p>We offering you comprehensive services to the industrial, commercial, residential & automotive sectors. </p>
+                        <h3><a href="service-details.html">Emergency & Mobile Locksmith Services</a></h3>
+                        <p>We provide fast, reliable, and 24/7 emergency locksmith solutions for homes, businesses, and
+                            vehicles—right when you need them most.</p>
                         <div class="read_more">
                             <a href="service-details.html"><span>Learn More</span></a>
                         </div>
@@ -85,8 +89,10 @@
                         </div>
                     </div>
                     <div class="iconbox_content">
-                        <h3><a href="service-details.html">Automobile Door lock Opening</a></h3>
-                        <p>We will provide you and your company with professional, prompt, efficient and competitive service.</p>
+                        <h3><a href="service-details.html">Lock Installation & Replacement
+                            </a></h3>
+                        <p>Whether you need new locks installed or existing ones replaced, our experts ensure secure and
+                            professional results for any door or entry point.</p>
                         <div class="read_more">
                             <a href="service-details.html"><span>Learn More</span></a>
                         </div>
@@ -104,8 +110,10 @@
                         </div>
                     </div>
                     <div class="iconbox_content">
-                        <h3><a href="service-details.html">Openning Locked House Door</a></h3>
-                        <p>Our team include the trained locksmiths experienced architectural hardware specialists & lock experts. </p>
+                        <h3><a href="service-details.html">Lock Rekeying & Key Services
+                            </a></h3>
+                        <p>Lost your keys or moving in? We offer quick and affordable lock rekeying, key duplication,
+                            and master key services for added security.</p>
                         <div class="read_more">
                             <a href="service-details.html"><span>Learn More</span></a>
                         </div>
@@ -123,7 +131,7 @@
                 <div class="group_image_holder type_1">
                     <div class="expe_box">
                         <div class="expe_box_inner">
-                            <h1>35</h1>
+                            <h1>5+</h1>
                             Years of Experience
                         </div>
                     </div>
@@ -136,14 +144,14 @@
                 <div class="experience_content">
                     <div class="section_header" data-aos="fade-up">
                         <div class="shadow_icon"><img src="assets/images/shadow_icon1.png" alt=""></div>
-                        <h6 class="section_sub_title">About Chaveiro Locksmith</h6>
-                        <h1 class="section_title">Quickest Responding Makes Us Reliable</h1>
-                        <p class="section_desc">When a locksmith is discussing re-keying that are referring to altering the code of the lock so that it will work with different key or a completely new one. You have purchased a new lock & want it to match the rest of
-                            the locks.</p>
-                        <h5 class="appoint">Call for Appointment <span>+33 123 456 789</span></h5>
+                        <h6 class="section_sub_title">Fast, Reliable & Always Ready to Help
+                        </h6>
+                        <h1 class="section_title">About Jmanns Locksmith</h1>
+                        <p class="section_desc">With 5+ years of experience, we specialize in lockouts, rekeying, repairs, and installations for homes, businesses, and vehicles. Our mobile locksmiths are available 24/7 to provide prompt and professional service whenever you need it.</p>
+                        <h5 class="appoint">Call for Appointment <span><a href="tel:+19285811957"><span>+1 (928) 581-1957</span></a></span></h5>
                     </div>
                     <div class="read_more" data-aos="fade-up">
-                        <a class="button" href="#">Learn More</a>
+                        <a class="button" href="">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -156,9 +164,9 @@
         <div class="row">
             <div class="col-lg-9">
                 <div class="section_header" data-aos="fade-up">
-                    <h6 class="section_sub_title">About Chaveiro Locksmith</h6>
-                    <h1 class="section_title">Our Fact Speaks about the<br/> result of our Effort</h1>
-                    <p class="section_desc">When a locksmith is discussing re-keying that are referring to altering the code of the lock so that it will work with different key or a completely new one. Here is the facts.</p>
+                    <h6 class="section_sub_title">About Jmanns Locksmith</h6>
+                    <h1 class="section_title">Our Work Reflects Our<br /> Commitment to Security</h1>
+                    <p class="section_desc">At Jmanns Locksmith, we specialize in rekeying, lockouts, repairs, and new installations. Our fast response, expert service, and dedication to customer satisfaction set us apart. Here are a few facts that speak for themselves:</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6">
@@ -167,7 +175,7 @@
                                 <img src="assets/images/funfact/icon1.png" alt="icon">
                             </div>
                             <div class="fun_content">
-                                <h1><span class="fun-number">33.5</span></h1>
+                                <h1><span class="fun-number">5+</span></h1>
                                 <p>Years of Experience</p>
                             </div>
                         </div>
@@ -179,8 +187,8 @@
                                 <img src="assets/images/funfact/icon2.png" alt="icon">
                             </div>
                             <div class="fun_content">
-                                <h1><span class="fun-number">5.25</span>k</h1>
-                                <p>Urgent Call Attended</p>
+                                <h1><span class="fun-number">100</span>%</h1>
+                                <p>Client Satisfication</p>
                             </div>
                         </div>
                     </div>
@@ -191,8 +199,8 @@
                                 <img src="assets/images/funfact/icon3.png" alt="icon">
                             </div>
                             <div class="fun_content">
-                                <h1><span class="fun-number">3.88</span>k</h1>
-                                <p>Lock Problem Solved</p>
+                                <h1><span class="fun-number">1.5</span>k+</h1>
+                                <p>Locks Handled </p>
                             </div>
                         </div>
                     </div>
@@ -211,9 +219,9 @@
     <div class="container">
         <div class="section_header text-center" data-aos="fade-up">
             <div class="shadow_icon"><img src="assets/images/shadow_icon2.png" alt=""></div>
-            <h6 class="section_sub_title">Common problem solutions</h6>
-            <h1 class="section_title">Most popular locksmith services</h1>
-            <p class="section_desc">When a locksmith is discussing re-keying that are referring<br/> to altering the code of the lock so that it </p>
+            <h6 class="section_sub_title">Effective Solutions for Common Lock Issues</h6>
+            <h1 class="section_title">Our Most In-Demand Locksmith Services</h1>
+            <p class="section_desc">We provide expert locksmith services including emergency lockouts, lock repairs, rekeying, and new installations. Trusted by residential and commercial clients, we’re available 24/7 to serve communities throughout Arizona.</p>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6">
@@ -223,7 +231,7 @@
                             <img src="assets/images/services/v_1.jpg" alt="img">
                         </div>
                         <div class="iconbox_content">
-                            <h3><a href="service-details.html">Automobile Door lock Opening</a></h3>
+                            <h3><a href="service-details.html">Emergency & Mobile Locksmith Services</a></h3>
                             <div class="read_more">
                                 <a href="service-details.html"><span>Get Service</span></a>
                             </div>
@@ -238,7 +246,7 @@
                             <img src="assets/images/services/v_2.jpg" alt="img">
                         </div>
                         <div class="iconbox_content">
-                            <h3><a href="service-details.html">Auto door lock installation</a></h3>
+                            <h3><a href="service-details.html">Lock Rekeying & Key Services</a></h3>
                             <div class="read_more">
                                 <a href="service-details.html"><span>Get Service</span></a>
                             </div>
@@ -253,7 +261,7 @@
                             <img src="assets/images/services/v_3.jpg" alt="img">
                         </div>
                         <div class="iconbox_content">
-                            <h3><a href="service-details.html">Lost lock key Duplication</a></h3>
+                            <h3><a href="service-details.html">Lock Installation & Replacement</a></h3>
                             <div class="read_more">
                                 <a href="service-details.html"><span>Get Service</span></a>
                             </div>
@@ -262,7 +270,7 @@
                 </div>
             </div>
         </div>
-        <h6 class="explore_all">If You Have Other Locksmith Problems <a href="services.html">Explore All Services</a> or Call to <span>+33 123 456 789</span> </h6>
+        <h6 class="explore_all">Have a unique locksmith concern?  <a href="services.html">Explore All Services</a> or give us a call at  <span><a href="tel:+19285811957"><span>+1 (928) 581-1957</span></a></span> </h6>
     </div>
 </div>
 
@@ -272,13 +280,13 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="banner_text">
-                        <h1>If You have any other Questions You Can call Us</h1>
+                        <h1>Have More Questions? Reach Out To Our Team Today.</h1>
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="banner_phone">
                         <img src="assets/images/phone3.png" alt="">
-                        <span>(+123)987.654.32</span>
+                        <span><a href="tel:+19285811957"><span>+1 (928) 581-1957</span></a></span>
                     </div>
                 </div>
             </div>
@@ -290,9 +298,9 @@
     <div class="container">
         <div class="section_header text-center" data-aos="fade-up">
             <div class="shadow_icon"><img src="assets/images/shadow_icon2.png" alt=""></div>
-            <h6 class="section_sub_title">Clients testimonial</h6>
-            <h1 class="section_title">What our clients say about us</h1>
-            <p class="section_desc">When a locksmith is discussing re-keying that are referring <br/> to altering the code of the lock so that it </p>
+            <h6 class="section_sub_title">Trusted by Homeowners & Businesses Across Arizona</h6>
+            <h1 class="section_title">What Our Clients Say</h1>
+            <p class="section_desc">We take pride in delivering fast, reliable, and professional locksmith services. <br> Here’s what some of our satisfied customers have to say:</p>
         </div>
         <div class="testimonial_slick_1">
             <div class="item">
@@ -305,17 +313,17 @@
                                 <li><i class="ion-ios-star"></i></li>
                                 <li><i class="ion-ios-star"></i></li>
                                 <li><i class="ion-ios-star"></i></li>
-                                <li><i class="ion-ios-star-half"></i></li>
+                                <li><i class="ion-ios-star"></i></li>
                             </ul>
-                            <p>I am really very happy with Chaveiro Locksmiths. My Car door stuck& they fix it. Thanks god I call them. & I will recommend them to Everybody.</p>
+                            <p>10/10 would recommend Jmanns if you ever get locked out. Got locked out of my house at nearly 1:00 in the morning and these guys got me out of a bind, quick. Extremely professional and efficient. Glad to to business with them.</p>
                         </div>
                         <div class="testi-top">
                             <div class="testi-img">
                                 <img src="assets/images/reviewer1.png" alt="">
                             </div>
                             <div class="testi-info">
-                                <h4>Kate Earls</h4>
-                                <h6>New York</h6>
+                                <h4>Andrew Bezdecny</h4>
+                                <h6>Customer</h6>
                             </div>
                         </div>
                     </div>
@@ -331,17 +339,17 @@
                                 <li><i class="ion-ios-star"></i></li>
                                 <li><i class="ion-ios-star"></i></li>
                                 <li><i class="ion-ios-star"></i></li>
-                                <li><i class="ion-ios-star-half"></i></li>
+                                <li><i class="ion-ios-star"></i></li>
                             </ul>
-                            <p>I am really very happy with Chaveiro Locksmiths. My Car door stuck& they fix it. Thanks god I call them. & I will recommend them to Everybody.</p>
+                            <p>Called them up and explained I had my car keys locked in. He was quick, less than 5 minutes and he was out, great experience will definitely be recommending him for anyone! Very fair price as well. Thank you very much</p>
                         </div>
                         <div class="testi-top">
                             <div class="testi-img">
                                 <img src="assets/images/reviewer2.png" alt="">
                             </div>
                             <div class="testi-info">
-                                <h4>Duncan Ray</h4>
-                                <h6>New Jersey</h6>
+                                <h4>Christopher</h4>
+                                <h6>Customer</h6>
                             </div>
                         </div>
                     </div>
@@ -357,17 +365,17 @@
                                 <li><i class="ion-ios-star"></i></li>
                                 <li><i class="ion-ios-star"></i></li>
                                 <li><i class="ion-ios-star"></i></li>
-                                <li><i class="ion-ios-star-half"></i></li>
+                                <li><i class="ion-ios-star"></i></li>
                             </ul>
-                            <p>I am really very happy with Chaveiro Locksmiths. My Car door stuck& they fix it. Thanks god I call them. & I will recommend them to Everybody.</p>
+                            <p>Jmanns locksmith was amazing! I was locked out of my car at  and he was fast to get to my location and get me into my car! Highly recommend if you need locksmith services in the valley!</p>
                         </div>
                         <div class="testi-top">
                             <div class="testi-img">
                                 <img src="assets/images/reviewer1.png" alt="">
                             </div>
                             <div class="testi-info">
-                                <h4>Kelly Brown</h4>
-                                <h6>New York</h6>
+                                <h4>Darryl Roman</h4>
+                                <h6>Customer</h6>
                             </div>
                         </div>
                     </div>
@@ -383,17 +391,17 @@
                                 <li><i class="ion-ios-star"></i></li>
                                 <li><i class="ion-ios-star"></i></li>
                                 <li><i class="ion-ios-star"></i></li>
-                                <li><i class="ion-ios-star-half"></i></li>
+                                <li><i class="ion-ios-star"></i></li>
                             </ul>
-                            <p>I am really very happy with Chaveiro Locksmiths. My Car door stuck& they fix it. Thanks god I call them. & I will recommend them to Everybody.</p>
+                            <p>J Manns Locksmith service is professional and effective. When no one else would tackle my project J Manns went above and beyond to assist me. I recommend them to anyone needing lock repair or replacement.</p>
                         </div>
                         <div class="testi-top">
                             <div class="testi-img">
                                 <img src="assets/images/reviewer2.png" alt="">
                             </div>
                             <div class="testi-info">
-                                <h4>Duncan Ray</h4>
-                                <h6>New Jersey</h6>
+                                <h4>Vince Gallo</h4>
+                                <h6>Customer</h6>
                             </div>
                         </div>
                     </div>
@@ -403,7 +411,7 @@
     </div>
 </div>
 
-<div class="clients type_2" data-aos="fade-up">
+{{-- <div class="clients type_2" data-aos="fade-up">
     <div class="clients_content">
         <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-4 client_logo">
@@ -426,9 +434,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
-<div class="blog section">
+{{-- <div class="blog section">
     <div class="container">
         <div class="blog_grid">
             <div class="row">
@@ -436,7 +444,8 @@
                     <div class="section_header text-left" data-aos="fade-up">
                         <h6 class="section_sub_title">Latest News</h6>
                         <h1 class="section_title">Blogs by Locksmiths</h1>
-                        <p class="section_desc">When a locksmith is discussing re-keying that are referring to altering the code of the lock so that it </p>
+                        <p class="section_desc">When a locksmith is discussing re-keying that are referring to altering
+                            the code of the lock so that it </p>
                     </div>
                     <div class="read_more read_all" data-aos="fade-up">
                         <a class="button" href="blog-1.html">Read All Blogs</a>
@@ -457,7 +466,8 @@
                                 </h3>
                             </div>
                             <div class="post_intro">
-                                <p>We offer locksmith service to industrial, commercial, reside ntial & automotive...</p>
+                                <p>We offer locksmith service to industrial, commercial, reside ntial & automotive...
+                                </p>
                             </div>
                             <div class="post_footer">
                                 <div class="read_more">
@@ -482,7 +492,8 @@
                                 </h3>
                             </div>
                             <div class="post_intro">
-                                <p>We offer locksmith service to industrial, commercial, reside ntial & automotive...</p>
+                                <p>We offer locksmith service to industrial, commercial, reside ntial & automotive...
+                                </p>
                             </div>
                             <div class="post_footer">
                                 <div class="read_more">
@@ -495,5 +506,5 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 @endsection
