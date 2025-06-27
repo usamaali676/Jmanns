@@ -32,13 +32,23 @@ class ContactMail extends Mailable
         );
     }
 
+    // public function build()
+    // {
+    //     $subject = $this->details['subject'];
+    //     return $this->markdown('emails.contact')
+    //     ->subject($subject)
+    //     ->with([
+    //         'details'=>$this->details
+    //     ]);
+    // }
+
     /**
      * Get the message content definition.
      */
     public function content(): Content
     {
         return new Content(
-            view: 'email.contact',
+            view: 'emails.contact',
         );
     }
 
@@ -51,4 +61,10 @@ class ContactMail extends Mailable
     {
         return [];
     }
+
+    public function build()
+{
+    return $this->markdown('emails.contact') // Your actual blade file
+                ->with(['details' => $this->details]);
+}
 }

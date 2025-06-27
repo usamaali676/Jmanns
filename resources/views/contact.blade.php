@@ -92,7 +92,18 @@
 									<h1 class="section_title">Want to Ask anything?<br/>
 										Send Us a Mail Anytime</h1>
 								</div>
-								<form class="contact_form" action="register.php" method="post" data-aos="fade-left" data-aos-duration="1000">
+								<form class="contact_form" action="{{ route('contactform') }}" method="post" data-aos="fade-left" data-aos-duration="1000">
+                                    @csrf
+                                    @if($errors->any())
+                                    <div class="alert alert-danger">
+                                        <p><strong>Opps Something went wrong</strong></p>
+                                        <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                        </ul>
+                                    </div>
+                                @endif
 									<div class="form-container">
 										<div class="row">
 											<div class="col-md-6 col-lg-6">

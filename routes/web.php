@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,3 +18,5 @@ Route::get('/detail-service', function () {
 Route::get('/contact-us', function () {
     return view('contact');
 });
+
+Route::post('/contact-form', [DashboardController::class, 'submit'])->name('contactform');
