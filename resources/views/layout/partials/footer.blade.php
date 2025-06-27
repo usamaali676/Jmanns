@@ -3,7 +3,7 @@
         <div class="container">
             <div class="logo_footer_top d-md-block d-lg-none text-center" data-aos="fade-up">
                 <a href="index.html">
-                    <img src="assets/images/logo2.png" alt="Locksmith">
+                    <img src="{{asset('assets/images/logo2.png')}}" alt="Locksmith">
                 </a>
             </div>
             <div class="row">
@@ -15,12 +15,12 @@
                         </h4>
                         <div class="footer_nav">
                             <ul class="footer_menu">
-                                <li class="menu-item"><a href="#">Emergency & Mobile Locksmith Services</a></li>
-                                <li class="menu-item"><a href="#">Lockout Services</a></li>
-                                <li class="menu-item"><a href="#">Lock Installation & Replacement</a></li>
-                                <li class="menu-item"><a href="#">Lock Rekeying & Key Services</a></li>
-                                <li class="menu-item"><a href="#">Lock Repair Services</a></li>
-                                <li class="menu-item"><a href="#">Residential & commercial lock repair</a></li>
+                                <li class="menu-item"><a href="{{route('services')}}">Emergency & Mobile Locksmith Services</a></li>
+                                <li class="menu-item"><a href="{{route('services')}}">Lockout Services</a></li>
+                                <li class="menu-item"><a href="{{route('services')}}">Lock Installation & Replacement</a></li>
+                                <li class="menu-item"><a href="{{route('services')}}">Lock Rekeying & Key Services</a></li>
+                                <li class="menu-item"><a href="{{route('services')}}">Lock Repair Services</a></li>
+                                <li class="menu-item"><a href="{{route('services')}}">Residential & commercial lock repair</a></li>
                             </ul>
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                     <div class="footer_widget footer_contact" data-aos="fade-up" data-aos-duration="900">
                         <div class="logo_footer d-none d-md-none d-lg-block">
                             <a href="index.html">
-                                <img src="assets/images/logo2.png" alt="Locksmith">
+                                <img src="{{asset('assets/images/logo2.png')}}" alt="Locksmith">
                             </a>
                         </div>
                         <h4 class="widget_title d-md-block d-lg-none">
@@ -42,7 +42,7 @@
                             <h4><a href="https://maps.app.goo.gl/STrQRCpWwBcT7Lyd8" class="custom-a">Jmanns Locksmith
                                     <br /> Arizona(AZ), USA</a></h4>
                             <div class="phone">
-                                <img src="assets/images/phone2.png" alt="phone">
+                                <img src="{{asset('assets/images/phone2.png')}}" alt="phone">
                                 <div><span>Mon- Sun (Open 24 Hours)</span><br><a href="tel:+19285811957"
                                         class="custom-a">+1 (928) 581-1957</a></div>
                             </div>

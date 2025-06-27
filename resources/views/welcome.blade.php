@@ -3,7 +3,7 @@
 <div class="theme_slider_1">
     <div class="slider_slick_1">
         <div class="item">
-            <div class="slider" style="background-image:url(assets/images/slider/slider_bg1.jpg)">
+            <div class="slider" style="background-image:url({{asset('assets/images/slider/slider_bg1.jpg')}})">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-7">
@@ -14,14 +14,14 @@
                                 <p class="desc">Serving residential & commercial clients with expert
                                     lockout, rekeying, and emergency locksmith solutions. </p>
                                 <div class="slider_button">
-                                    <a href="#" class="button alt">About Us</a>
+                                    <a href="{{route('about')}}" class="button alt">About Us</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-5">
                             <div class="slide_content_img">
-                                <img src="assets/images/slider/man1.png" alt="">
+                                <img src="{{asset('assets/images/slider/man.png')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -64,16 +64,16 @@
                 <div class="iconbox_wrapper">
                     <div class="iconbox_image">
                         <div class="iconbox_icon">
-                            <img class="first_icon" src="assets/images/services/icon12.png" alt="icon">
-                            <img class="second_icon" src="assets/images/services/icon12_1.png" alt="icon">
+                            <img class="first_icon" src="{{asset('assets/images/services/icon12.png')}}" alt="icon">
+                            <img class="second_icon" src="{{asset('assets/images/services/icon12_1.png')}}" alt="icon">
                         </div>
                     </div>
                     <div class="iconbox_content">
-                        <h3><a href="service-details.html">Emergency & Mobile Locksmith Services</a></h3>
+                        <h3><a href="{{route('about')}}">Emergency & Mobile Locksmith Services</a></h3>
                         <p>We provide fast, reliable, and 24/7 emergency locksmith solutions for homes, businesses, and
                             vehicles—right when you need them most.</p>
                         <div class="read_more">
-                            <a href="service-details.html"><span>Learn More</span></a>
+                            <a href="{{route('about')}}"><span>Learn More</span></a>
                         </div>
                     </div>
                 </div>
@@ -84,17 +84,17 @@
                 <div class="iconbox_wrapper">
                     <div class="iconbox_image">
                         <div class="iconbox_icon">
-                            <img class="first_icon" src="assets/images/services/icon10.png" alt="icon">
-                            <img class="second_icon" src="assets/images/services/icon10_1.png" alt="icon">
+                            <img class="first_icon" src="{{asset('assets/images/services/icon10.png')}}" alt="icon">
+                            <img class="second_icon" src="{{asset('assets/images/services/icon10_1.png')}}" alt="icon">
                         </div>
                     </div>
                     <div class="iconbox_content">
-                        <h3><a href="service-details.html">Lock Installation & Replacement
+                        <h3><a href="{{route('about')}}">Lock Installation & Replacement
                             </a></h3>
                         <p>Whether you need new locks installed or existing ones replaced, our experts ensure secure and
                             professional results for any door or entry point.</p>
                         <div class="read_more">
-                            <a href="service-details.html"><span>Learn More</span></a>
+                            <a href="{{route('about')}}"><span>Learn More</span></a>
                         </div>
                     </div>
                 </div>
@@ -105,17 +105,17 @@
                 <div class="iconbox_wrapper">
                     <div class="iconbox_image">
                         <div class="iconbox_icon">
-                            <img class="first_icon" src="assets/images/services/icon11.png" alt="icon">
-                            <img class="second_icon" src="assets/images/services/icon11_1.png" alt="icon">
+                            <img class="first_icon" src="{{asset('assets/images/services/icon11.png')}}" alt="icon">
+                            <img class="second_icon" src="{{asset('assets/images/services/icon11_1.png')}}" alt="icon">
                         </div>
                     </div>
                     <div class="iconbox_content">
-                        <h3><a href="service-details.html">Lock Rekeying & Key Services
+                        <h3><a href="{{route('about')}}">Lock Rekeying & Key Services
                             </a></h3>
                         <p>Lost your keys or moving in? We offer quick and affordable lock rekeying, key duplication,
                             and master key services for added security.</p>
                         <div class="read_more">
-                            <a href="service-details.html"><span>Learn More</span></a>
+                            <a href="{{route('about')}}"><span>Learn More</span></a>
                         </div>
                     </div>
                 </div>
@@ -135,15 +135,15 @@
                             Years of Experience
                         </div>
                     </div>
-                    <img class="main_img" src="assets/images/image6.png" alt="">
-                    <img class="sub_img" src="assets/images/image5.png" alt="">
-                    <img class="sub_img2" src="assets/images/image4.png" alt="">
+                    <img class="main_img" src="{{asset('assets/images/1.webp')}}" alt="">
+                    <img class="sub_img" src="{{asset('assets/images/2.webp')}}" alt="">
+                    <img class="sub_img2" src="{{asset('assets/images/3.webp')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-6 col-md-5">
                 <div class="experience_content">
                     <div class="section_header" data-aos="fade-up">
-                        <div class="shadow_icon"><img src="assets/images/shadow_icon1.png" alt=""></div>
+                        <div class="shadow_icon"><img src="{{asset('assets/images/shadow_icon1.png')}}" alt=""></div>
                         <h6 class="section_sub_title">Fast, Reliable & Always Ready to Help
                         </h6>
                         <h1 class="section_title">About Jmanns Locksmith</h1>
@@ -151,7 +151,7 @@
                         <h5 class="appoint">Call for Appointment <span><a href="tel:+19285811957"><span>+1 (928) 581-1957</span></a></span></h5>
                     </div>
                     <div class="read_more" data-aos="fade-up">
-                        <a class="button" href="">Contact Us</a>
+                        <a class="button" href="{{route('contact')}}">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -172,7 +172,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="funbox1">
                             <div class="fun_img">
-                                <img src="assets/images/funfact/icon1.png" alt="icon">
+                                <img src="{{asset('assets/images/funfact/icon1.png')}}" alt="icon">
                             </div>
                             <div class="fun_content">
                                 <h1><span class="fun-number">5+</span></h1>
@@ -184,7 +184,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="funbox1">
                             <div class="fun_img">
-                                <img src="assets/images/funfact/icon2.png" alt="icon">
+                                <img src="{{asset('assets/images/funfact/icon2.png')}}" alt="icon">
                             </div>
                             <div class="fun_content">
                                 <h1><span class="fun-number">100</span>%</h1>
@@ -196,7 +196,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="funbox1">
                             <div class="fun_img">
-                                <img src="assets/images/funfact/icon3.png" alt="icon">
+                                <img src="{{asset('assets/images/funfact/icon3.png')}}" alt="icon">
                             </div>
                             <div class="fun_content">
                                 <h1><span class="fun-number">1.5</span>k+</h1>
@@ -208,7 +208,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="man_img">
-                    <img src="assets/images/man2.png" alt="icon">
+                    <img src="{{asset('assets/images/2man.png')}}" alt="icon">
                 </div>
             </div>
         </div>
@@ -228,12 +228,12 @@
                 <div class="iconbox2 first">
                     <div class="iconbox_wrapper">
                         <div class="iconbox_image">
-                            <img src="assets/images/services/v_1.jpg" alt="img">
+                            <img src="{{asset('assets/images/services/v_1.webp')}}" alt="img">
                         </div>
                         <div class="iconbox_content">
-                            <h3><a href="service-details.html">Emergency & Mobile Locksmith Services</a></h3>
+                            <h3><a href="{{route('services')}}">Emergency & Mobile Locksmith Services</a></h3>
                             <div class="read_more">
-                                <a href="service-details.html"><span>Get Service</span></a>
+                                <a href="{{route('services')}}"><span>Get Service</span></a>
                             </div>
                         </div>
                     </div>
@@ -243,12 +243,12 @@
                 <div class="iconbox2 second">
                     <div class="iconbox_wrapper">
                         <div class="iconbox_image">
-                            <img src="assets/images/services/v_2.jpg" alt="img">
+                            <img src="{{asset('assets/images/services/v_2.webp')}}" alt="img">
                         </div>
                         <div class="iconbox_content">
-                            <h3><a href="service-details.html">Lock Rekeying & Key Services</a></h3>
+                            <h3><a href="{{route('services')}}">Lock Rekeying & Key Services</a></h3>
                             <div class="read_more">
-                                <a href="service-details.html"><span>Get Service</span></a>
+                                <a href="{{route('services')}}"><span>Get Service</span></a>
                             </div>
                         </div>
                     </div>
@@ -258,19 +258,19 @@
                 <div class="iconbox2 third">
                     <div class="iconbox_wrapper">
                         <div class="iconbox_image">
-                            <img src="assets/images/services/v_3.jpg" alt="img">
+                            <img src="{{asset('assets/images/services/v_3.webp')}}" alt="img">
                         </div>
                         <div class="iconbox_content">
-                            <h3><a href="service-details.html">Lock Installation & Replacement</a></h3>
+                            <h3><a href="{{route('about')}}">Lock Installation & Replacement</a></h3>
                             <div class="read_more">
-                                <a href="service-details.html"><span>Get Service</span></a>
+                                <a href="{{route('about')}}"><span>Get Service</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <h6 class="explore_all">Have a unique locksmith concern?  <a href="services.html">Explore All Services</a> or give us a call at  <span><a href="tel:+19285811957"><span>+1 (928) 581-1957</span></a></span> </h6>
+        <h6 class="explore_all">Have a unique locksmith concern?  <a href="{{route('services')}}">Explore All Services</a> or give us a call at  <span><a href="tel:+19285811957"><span>+1 (928) 581-1957</span></a></span> </h6>
     </div>
 </div>
 
@@ -285,7 +285,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="banner_phone">
-                        <img src="assets/images/phone3.png" alt="">
+                        <img src="{{asset('assets/images/phone3.png')}}" alt="">
                         <span><a href="tel:+19285811957"><span>+1 (928) 581-1957</span></a></span>
                     </div>
                 </div>
@@ -297,7 +297,7 @@
 <div class="section testimonial">
     <div class="container">
         <div class="section_header text-center" data-aos="fade-up">
-            <div class="shadow_icon"><img src="assets/images/shadow_icon2.png" alt=""></div>
+            <div class="shadow_icon"><img src="{{asset('assets/images/shadow_icon2.png')}}" alt=""></div>
             <h6 class="section_sub_title">Trusted by Homeowners & Businesses Across Arizona</h6>
             <h1 class="section_title">What Our Clients Say</h1>
             <p class="section_desc">We take pride in delivering fast, reliable, and professional locksmith services. <br> Here’s what some of our satisfied customers have to say:</p>
@@ -319,7 +319,7 @@
                         </div>
                         <div class="testi-top">
                             <div class="testi-img">
-                                <img src="assets/images/reviewer1.png" alt="">
+                                <img src="{{asset('assets/images/review1.webp')}}" alt="">
                             </div>
                             <div class="testi-info">
                                 <h4>Andrew Bezdecny</h4>
@@ -345,7 +345,7 @@
                         </div>
                         <div class="testi-top">
                             <div class="testi-img">
-                                <img src="assets/images/reviewer2.png" alt="">
+                                <img src="{{asset('assets/images/review2.webp')}}" alt="">
                             </div>
                             <div class="testi-info">
                                 <h4>Christopher</h4>
@@ -371,7 +371,7 @@
                         </div>
                         <div class="testi-top">
                             <div class="testi-img">
-                                <img src="assets/images/reviewer1.png" alt="">
+                                <img src="{{asset('assets/images/review3.webp')}}" alt="">
                             </div>
                             <div class="testi-info">
                                 <h4>Darryl Roman</h4>
@@ -397,7 +397,7 @@
                         </div>
                         <div class="testi-top">
                             <div class="testi-img">
-                                <img src="assets/images/reviewer2.png" alt="">
+                                <img src="{{asset('assets/images/review4.webp')}}" alt="">
                             </div>
                             <div class="testi-info">
                                 <h4>Vince Gallo</h4>
