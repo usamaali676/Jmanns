@@ -52,21 +52,21 @@
         <div class="container">
             <div class="middle_bar_inner">
                 <div class="logo">
-                    <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                    <a href="index.html"><img src="{{asset('assets/images/logo.png')}}" alt="logo"></a>
                 </div>
 
                 <div class="header_right_part">
                     <div class="mainnav">
                         <ul class="main_menu">
-                            <li class="menu-item menu-item-has-children active"><a href="index.html">Home</a>
+                            <li class="menu-item menu-item-has-children active"><a href="{{ route('home') }}">Home</a>
                             </li>
-                            {{-- <li class="menu-item"><a href="about.html">About</a></li> --}}
-                            <li class="menu-item menu-item-has-children"><a href="services.html">Services</a>
-                                <ul class="sub-menu">
+                            <li class="menu-item"><a href="{{ route('about')}}">About</a></li>
+                            <li class="menu-item menu-item-has-children"><a href="{{route('services')}}">Services</a>
+                                {{-- <ul class="sub-menu">
                                     <li class="menu-item"><a href="service-details.html">Service Details</a></li>
-                                </ul>
+                                </ul> --}}
                             </li>
-                            <li class="menu-item menu-item-has-children"><a href="#">Contact</a>
+                            <li class="menu-item menu-item-has-children"><a href="{{route('contact')}}">Contact</a>
                             </li>
                         </ul>
                     </div>

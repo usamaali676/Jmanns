@@ -4,7 +4,7 @@
 <style>
     .page_header .page_header_content {
     position: relative;
-    background-image: url('{{ asset('assets/images/services/header_bg.png') }}');;
+    background-image: url('{{ asset('assets/images/services/banner.webp') }}');;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
