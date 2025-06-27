@@ -1,5 +1,25 @@
 @extends('layout.app')
 @section('content')
+
+<style>
+    .page_header .page_header_content {
+    position: relative;
+    background-image: url('{{ asset('assets/images/services/header_bg.png') }}');;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 135px 0px 135px 0px;
+    text-align: center;
+}
+.bg_image_4 {
+    background-image: url('{{ asset('assets/images/bg4.jpg') }}');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
 <div class="page_header">
             <div class="page_header_content">
                 <div class="container">
@@ -16,7 +36,12 @@
 			<div class="section">
 				<div class="container">
 					<div class="gmapbox" data-aos="zoom-in">
-						<div id="googleMap" class="map"></div>
+                        <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851864.8668521304!2d-112.31465!3d33.485837999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x433b937055be8707%3A0xa7ecd9b361f4e382!2sJmanns%20Locksmith!5e0!3m2!1sen!2s!4v1750962628663!5m2!1sen!2s"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+						{{-- <div id="googleMap" class="map"></div> --}}
 					</div>
 				</div>
 			</div>
@@ -32,8 +57,8 @@
                                     </div>
                                     <div class="info_body">
                                         <h5>Phone No</h5>
-                                        <h6>+33 987 654 321</h6>
-                                        <h6>+33 123 456 789</h6>
+                                        <a href="tel:9285811957"><h6>(928) 581-1957</h6></a>
+                                        {{-- <h6>+33 123 456 789</h6> --}}
                                     </div>
                                 </div>
                                 <div class="communication" data-aos="fade-up" data-aos-duration="1000">
@@ -43,8 +68,8 @@
                                     </div>
                                     <div class="info_body">
                                         <h5>Email Address</h5>
-                                        <h6>chaveiro@gmail.com</h6>
-                                        <h6>chaveiro@care.com</h6>
+                                        <a href="mailto:jmannslocksmith@gmail.com"><h6>jmannslocksmith@gmail.com</h6></a>
+                                        {{-- <h6>chaveiro@care.com</h6> --}}
                                     </div>
                                 </div>
                                 <div class="communication" data-aos="fade-up" data-aos-duration="1300">
@@ -54,7 +79,8 @@
                                     </div>
                                     <div class="info_body">
                                         <h5>Office Address</h5>
-                                        <h6>Gr. Benjamin Street 609<br/> Florida, USA</h6>
+                                        <h6>Jmanns Locksmith
+                                            <br/> Arizona(AZ), USA</h6>
                                     </div>
                                 </div>
                             </div>
